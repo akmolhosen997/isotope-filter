@@ -1,0 +1,33 @@
+
+/* responsive css */
+
+@media (min-width: 992px) {
+    .items {
+        padding-left: 20px;
+    }
+  }
+  @media (max-width: 991px) {
+    .items {
+        padding-left: 15px;
+    }
+  }
+@media (max-width: 767px) {
+    .single-items {
+        width: 47%;
+    }
+    .items {
+        padding-left: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .single-items {
+        width: 100%;
+    }
+    .items {
+        padding-left: 0px;
+    }
+    .menu-portfolio ul li {
+        font-size: 14px;
+    }
+  }
